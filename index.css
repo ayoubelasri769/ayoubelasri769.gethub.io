@@ -1,0 +1,743 @@
+ nav{
+  
+  background-color: white;
+  box-shadow: 5px 5px 8px #ccc;
+  font-family: Poppins, sans-serif;
+  
+  margin-top: 5px;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+ /* *{
+  border:2px solid rgb(0, 0, 0);
+} */
+header{
+  height: max-content;
+  top: 0;
+  position: sticky;
+  z-index: 1000;
+  width: 100%;
+}
+body {
+  background: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  display: block;
+  overflow-x:hidden;
+  margin: 0;
+  width: 100%;
+}
+
+.bg-couteur {
+  background-color: #5a57fa;
+}
+
+a {
+  position: relative;
+  padding: 12px;
+  color: #1e1af9;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-btn {
+  background-color: white;
+  color: #1e1af9;
+  border: none;
+  border-radius: 20px;
+  border-spacing: 5px;
+  box-sizing: 40px;
+}
+.container-fluid img{
+  width:150px;
+  height:90px;
+}
+/***********************************************/
+ .dropdown-menu1 {
+
+  transition-duration: 1s;
+  transition-property: height;
+  background-color: white;
+  border-radius: 10px;
+  text-align: left;
+  width: max-content;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  
+}
+.dropdown-menu12 {
+  
+  transition-duration: 1s;
+  transition-property: height;
+  background-color: white;
+  border-radius: 10px;
+  text-align: left;
+  width: max-content;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  
+}
+.dropdown1 {
+  width: max-content;
+  overflow: hidden;
+  height: max-content;
+   border-radius: 50px; 
+  font-size: 100%;
+  justify-content: space-between;
+  padding: 10px;
+  
+}
+.dropdown1 a{
+  padding: 10px;
+  width: max-content;
+}
+.dropdown1:hover .dropdown-menu1 {
+  height:360px;
+  margin-top: 10px;
+}
+.dropdown1:hover .dropdown-menu12 {
+  height:30px;
+  margin-top: 10px;
+}
+
+.dropdown-item1 > a{
+  margin-top: 60px;
+  position: relative;
+ 
+}
+.dropdown-item1{
+  color: #1e1af9;
+  height:40px;
+  width:100%;
+  position: relative;
+  right:30px;
+ 
+}
+.dropdown-item1:hover {
+  width: 108%;
+  background-color: #e4e1e1;
+  padding:0;
+}
+.collapse{
+  width: 100%;
+}
+.navbar-nav{
+  width: 100%;
+  margin-left:5%;
+}
+.nav-item{
+  transition-duration: 2s;
+  transition-property:all;
+  color:#1e1af9;
+  text-align: left;
+  border-radius: 5px; 
+  width: max-content;
+}
+.dropdown1:hover .nav-item  {
+  background-color: #1e1af9;
+  color: white;
+  border-radius: 80px;
+}
+
+.dropdown-devis{
+  height: 40px;
+  width: max-content;
+  border-radius: 5px;
+  background-color: #05d589;
+  transition-duration: 0.2s;
+  transition-property:all;
+  position: relative;
+}
+
+.dropdown-devis:hover {
+  height: 40px;
+  border:3px solid red;
+  border-radius: 20px;
+  padding: 3px;
+  background-color: #05d589;
+  position: relative;
+}
+/* @media (max-device-width:400px){
+  .dropdown:hover .nav-item  {
+    background-color: #1e1af9;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .dropdown:hover .dropdown-menu  {
+    display:block;
+  }
+} */
+/***************************************************serviceeeeeeeeeeeeeeeeeeeee***********/
+.div-general {
+  /*background-image: url("./images/background.jpg");*/
+  background-color: white;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-attachment: fixed;
+  position: relative;
+  width: 96%;
+}
+
+.image1_contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  height: 500px;
+}
+
+.image1_contact img {
+  width: 100%;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  border-radius: 10px 10px 10px 10px;
+  max-width: 100%;
+  /*transition:opacity 1s;*/
+  height: 500px;
+}
+.btnbtn-primary{
+  border-radius: 10px;
+  color:white ;
+  background-color: #1e1af9;
+  height:30px;
+  width: 80%;
+  margin-top: 10px;
+}
+.image1_contact img:first-childy {
+  opacity: 1;
+}
+
+.paragraph1 {
+  display: block;
+  width: 50%;
+  text-align: center;
+  margin-top:70px;
+  margin-bottom: 30px;
+}
+
+.paragraph1 p {
+  font-size: 20px;
+  color: #333;
+  width: 100%;
+
+}
+.paragraph {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top:70px;
+  margin-bottom: 30px;
+}
+.paragraph p{
+  font-size: 20px;
+  color: #333;
+  width: 100%;
+}
+/****************************services************************/
+.services {
+  background-color: #f1f1f1;
+  position: relative;
+  width:100%;
+}
+
+.netoy-bureau {
+
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+  margin: 0%;
+}
+.btn-primary{
+  margin-right: 90px;
+}
+
+.netoy-bureau-imag {
+  text-align: center;
+  width: 50%;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.netoy-bureau-imag1 {
+  text-align: center;
+  width: 50%;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.netoy-bureau-imag img {
+  margin-right: 10px;
+  border-radius: 10px;
+  width: 100%;
+  
+
+}
+
+.netoy-bureau-paragraph {
+  margin: 40px;
+  margin-top: 70px;
+  
+  width: 60%;
+  justify-content: space-between;
+}
+
+.netoy-appartement {
+  width: 100%;
+  display: flex;
+}
+
+.btn {
+  width: 50%;
+  text-align: center;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 20%;
+}
+
+/********************************Cards****************************/
+.div-cards {
+  margin-top: 20px;
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.cards{
+  margin-left: 30px;
+  margin-right: 30px;
+  align-items: center;
+
+}
+.card {
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #333;
+  width: 300px;
+}
+
+.btn-btn {
+  width: 95%;
+  position: relative;
+  right: 35px;
+}
+
+.plus-services {
+  width: 96%;
+  background-color: #e4e2e2;
+  text-align: center;
+  margin: 20px;
+  position: relative;
+  border-radius: 10px;
+}
+
+/**************************************footer***************************/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  color: white;
+}
+
+.apropos {
+  width: 30%;
+  margin-left: 30px;
+}
+.nos-services-services{
+  text-align: center;
+ align-items: center;
+ align-content: center;
+ display:flex;
+ width: 100%;
+}
+.nos-services{
+  text-align: center;
+  width: 100%;
+}
+.footer-services{
+  text-align: center;
+}
+.services1 , .services2{
+ 
+ margin-left: 30px;
+ margin-right: 30px;
+ 
+}
+.services-link {
+  border: 2px solid rgb(228, 228, 255);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.services-link:hover {
+  height:max-content;
+  border: 2px solid rgb(63, 63, 255);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #1e1af9
+}
+
+.services-link:hover a {
+  color: white;
+}
+.contacter-nous{
+  width: 30%;
+}
+.card{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.block-si-small{
+  display:flex;
+}
+/*/////////////////////////////////////////////////////////**/
+@media (max-width: 576px) {
+  .block-si-small {
+      display: block;
+  }
+  .services-link{
+    width: 60%;
+    margin-left: 70px
+  }
+}
+@media (max-width: 1000px) {
+  .block-si-small {
+      display: block;
+  }
+ .dropdown-menu1 ,.dropdown-menu12{
+  width: 100%;
+  text-align: center;
+ 
+  position: relative;
+  margin-right: 5%;
+ }
+  .services-link{
+    width: 60%;
+    margin-right: 70px;
+  }
+  .dropdown-item1{
+    text-align: center;
+    width:100%;
+  }
+  .dropdown1:hover .nav-item  {
+    background-color: #302cfd;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+  }
+
+  .dropdown1{
+    margin-top: 10px;
+    margin-right: 30px;
+  }
+   .netoy-bureau {
+    text-align: center;
+    display: inline-block;
+    }
+    .paragraph1 {
+      display: inline-block;
+      margin-top: 0px;
+    }
+    
+    .netoy-bureau-imag{
+      display: inline-block;
+      
+      text-align: center;
+    }
+    .netoy-bureau-imag img{
+      display: inline-block;
+      width: 100%;
+    }
+    .div-cards{
+      display: inline-block;
+      text-align: center;
+    }
+   .dropdown-devis{
+   margin-top: 30px;
+   }
+}
+
+@media (max-width:600px) {
+  .footer{
+    display: inline-block;
+  }
+  /*.footer div{
+    margin-left: 20%;
+  }*/
+  .apropos{
+    width: 80%;
+    margin-left: 30px;
+  }
+  /* .nos-services{
+    width: 80%;
+    margin-left: 30px;
+  } */
+  .contacter-nous{
+    width: 80%;
+    margin-left: 60px;
+  }
+}
+.parag-particulier{
+  text-align: left;
+   width: 300px;
+   margin-left: 40%;
+}
+.titre-particulier{
+  font-size:30px;
+  color: rgb(47, 87, 247);
+}
+.titre-general-particulier{
+  font-size: 40px;
+   color:#040187
+}
+/*///////////////////////////////////////////////////////////////||||||||||||\\\\\\\\\\\\\\|\|///*/
+@media screen and (max-device-width: 768px) {
+
+  .paragraph p, p > strong{
+      font-size: 40px;
+  }
+  .professionnel-div{
+    height: 300px;
+    background-image: url("./images/background.jpg");
+    width: 100%;
+  }
+  .titre-general-particulier{
+    font-size: 60px;
+     color:#040187;
+  }
+  .parag-particulier{
+    text-align: right;
+    width:700px;
+    margin-left: 40px;
+    font-weight: bold;
+  }
+  .titre-particulier{
+    font-size:50px;
+    color: rgb(47, 87, 247);
+    font-weight: bold;
+    margin-top: 40px;
+  }
+  .div-general p{
+    font-size: 40px;
+    text-align: left;
+  }
+  .card-text{
+    font-size: 40px;
+  }
+  .card-title{
+    font-size: 50px;
+  }
+  .btnbtn-primary strong{
+    font-size: 40px;
+  }
+  .container-fluid img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 30px;
+  }
+  .container-fluid button{
+    padding: 30px;
+  }
+  .navbar-toggler-icon{
+    height: 80px;
+    width: 80px;
+  }
+  .logo-img{
+    width:300px;
+    height:200px;
+  }
+  .dropdown1{
+    font-size: 50px;
+    
+  }
+  .dropdown-toggle{
+    width: 600px;
+  }
+  .dropdown-menu1 {
+    height:0;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .dropdown-menu12 {
+    height:0;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .dropdown1:hover .dropdown-menu1 {
+    height:max-content;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .dropdown1:hover .dropdown-menu12 {
+    height:max-content;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .dropdown-item1{
+    height: 60px;
+   text-align: left;
+    overflow-y: auto;
+    font-size: 40px;
+  }
+  
+  .card {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #333;
+    width: 800px;
+    margin-top:70px;
+    margin-left:10px;
+    font-size: 20px;
+  }
+  .card button{
+    height: 80px;
+    border-radius: 30px;
+  }
+  .footer p{
+    display: inline-block;
+    
+  }
+  .dropdown-devis{
+    font-size: 40px;
+    height:80px;
+  }
+  .apropos{
+    width: 90%;
+    margin-left: 30px;
+    margin-bottom: 50px;
+  }
+  .apropos p{
+    font-size: 40px;
+    
+  }
+  .apropos img{
+    width: 100%;
+    height: 300px;
+  }
+  .footer-services p>strong{
+    font-size: 70px;
+  }
+  .contacter-nous p>strong{
+    font-size: 70px;
+  }
+  .nos-services-services div>div>a{
+    font-size: 40px;
+    font-weight: bold;
+    
+  }
+  .nos-services-services div>div{
+    width: 90%;
+    margin-right: 60px;
+    
+  }
+  .nos-services-services div{
+    
+    margin-right: 60px;
+  }
+  .nos-services{
+    width: 80%;
+    
+  }
+  .contacter-nous{
+    width: 80%;
+    margin-left: 60px;
+  }
+  .contacter-nous p {
+    font-size: 40px;
+  }
+  .contacter-nous hr{
+    width: 100%;
+    height: 8px;
+  }
+  .netoy-bureau-imag {
+    
+    width: 90%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  .paragraph1{
+    font-size: 40px;
+    width: 80%;
+    text-align: left;
+    margin-right: 10%;
+  }
+  .paragraph1 p > strong{
+    font-size: 35px;
+    text-align: center;
+    width: 70%;
+  }
+  .paragraph1 p {
+    width: 120%;
+    text-align: left;
+    margin-top: 10px;
+
+  }
+  .paragraph1 button{
+    height: 80px;
+    border-radius: 20px;
+  }
+  .paragraph-netoyage{
+    font-size:70px;
+  }
+}
+
+@media (max-device-width:500px) {
+  
+  .dropdown1{
+    margin-top: 50px;
+    
+  }
+  .footer{
+    display: inline-block;
+  }
+  /*.footer div{
+    margin-left: 20%;
+  }*/
+  .apropos{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .nos-services{
+    width: 80%;
+    margin-left: 30px;
+  }
+  
+  .contacter-nous{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .services1 ,.services2{
+    margin-left:9%;
+  }
+}
+/******************************************page services***************************/
+.contact-nous-haut1{
+  height: 160px;
+  background-image: url("./images/background.jpg");
+  width: 100%;
+}
+/****************************************************************************************************************/
+.professionnel-div{
+  height: 160px;
+  background-image: url("./images/background.jpg");
+  width: 100%;
+}
