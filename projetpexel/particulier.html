@@ -12,30 +12,33 @@
 
 <body>
 
-  <header style="width:100%;">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" style="width:100%; ">
-      <div class="container-fluid" style="width:100%;">
+  <header style="width:100%;" >
+    <nav class=" navbar navbar-expand-lg navbar-light bg-light p-3" style="width:100%; justify-content:space-between;">
+      <div class=" container" >
         
           <img class="logo-img" src="./images/logo.png" alt="notre societe">
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class=" collapse navbar-collapse" id="navbarNav" style="margin-top:20px;">
+        <div class=" collapse navbar-collapse container" id="navbarNav" style="margin-top:20px;">
           <!----------------------------------------------->
-          <ul class="navbar-nav " style=" width: 100%; justify-content: space-between;">
+          <ul class="navbar-nav " >
             <li class="dropdown1" >
               <a class="nav-item" href="./index.html"><strong>Accueil</strong></a>
             </li>
-            <li class="dropdown1 nav-item">
+            <li class="dropdown1 nav-item" >
               <a class=" dropdown-toggle nav-item"  id="navbarDropdown" aria-expanded="false">
-
-                <strong> apropos</strong> </a>
+                <strong> apropos</strong> 
+              </a>
               <ul class="dropdown-menu12" aria-labelledby="navbarDropdown">
                 <li class="dropdown-item1">
-                  <p style="text-align: center;"><a class="" href="./apropos.html"
+                  <p style="text-align: center;">
+                    <a class="" href="./apropos.html"
                       style="text-align: center;"><strong>netoyage
-                        casablanca</strong> </a></p>
+                        casablanca</strong> 
+                    </a>
+                  </p>
                 </li>
               </ul>
             </li>
@@ -65,8 +68,8 @@
             <li class="dropdown1">
               <a class="nav-item" href="./blog.html"><strong>BLOG</strong></a>
             </li>
-            <li class="dropdown1">
-              <a class="nav-item" href="./contacter-nous.html"><strong>Contacter nous</strong></a>
+            <li class="dropdown1" >
+              <a class="nav-item" href="./contacter-nous.html" ><strong >Contacter nous</strong></a>
             </li>
 
             <li class="dropdown-devis">
@@ -81,7 +84,7 @@
   <div class="professionnel-div">
     <p style="font-size:40px;">particulier</p>
   </div>
-  <div class="div-general">
+  <div class="div-general container">
     <p class="titre-general-particulier">
       <strong> Societe de Camera Surveillance casablanca - WINBEST SURVEILLANCE</strong>
     </p>
@@ -124,7 +127,8 @@
   </div>
   <!--///////////////////////////////////footer///////////////////////////////---------------------------------->
   <hr />
-  <footer class=" footer ">
+  <footer class=" footer " style="text-align: center;">
+    <div class="container flex" >
     <div class="apropos ">
       <img src="./images/logo.png" alt="probléme d'image" style="width:100%; margin-bottom:30px;">
       <p style=" margin-top:10px">
@@ -143,10 +147,10 @@
     </div>
     <!------------------------------------nos services---------------------->
 
-     <div class="footer-services">
+     <div class="footer-services ">
       <p style="color:rgb(2, 186, 57);font-size:20px;"><strong>NOS SERVICES</strong></p>
       <div class="nos-services-services block-si-small">
-        <div class="services1   ">
+        <div class="services1">
           <div class="services-link "><a href="#">Netoyage de Bureau</a></div>
           <div class="services-link"><a href="#">femme de ménage</a></div>
           <div class="services-link"><a href="#">Netoyage de Bureau</a></div>
@@ -167,7 +171,7 @@
     </div>
     <!-------------------------------contacter nous--------------------------------------------------->
     <div class="contacter-nous " style="margin-bottom:20px;">
-      <p style="color:rgb(2, 186, 57);font-size:20px"><strong>CONTACT</strong></>
+      <p style="color:rgb(2, 186, 57);font-size:20px"><strong>CONTACT</strong></p>
         <hr />
       <p>Adresse 1: 46 Bd Zerktouni , 2ème étage N°6 Casablanca – Maroc.</p>
       <p>Adresse 1: 46 Bd Zerktouni , 2ème étage N°6 Casablanca – Maroc.</p>
@@ -178,6 +182,7 @@
       <p>Tel: (+212) 522-441-438</p>
       <hr />
       <img src="./images/mail-footer.webp" style="width:100%;position:relative;" alt="brobléme">
+    </div>
     </div>
   </footer>
 </body>
