@@ -589,7 +589,7 @@ progress {
   color: #6c757d;
 }
 
-/* .container,
+ .container,
 .container-fluid,
 .container-xxl,
 .container-xl,
@@ -599,8 +599,7 @@ progress {
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
+  text-align: center;
 }
 
 @media (min-width: 576px) {
@@ -627,7 +626,7 @@ progress {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1320px;
   }
-} */
+}
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;

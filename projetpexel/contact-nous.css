@@ -9,8 +9,13 @@
   color: white;
   
 }
+@media (max-device-width:400px){
+  *{
+    font-size: 5px;
+  }
+}
 .paragra1{
-  font-size:30px;
+  font-size:20px;
   text-align:left;
 }
 .btnbtn-primar{
