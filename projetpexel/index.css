@@ -104,11 +104,11 @@ ul{
   transition: all 1;
 }
 .dropdown-item1 a>strong{
-  color: #fb5f90;
+  color: #f91a1a;
 }
 .dropdown-item1:hover {
   width: 250px;
-  background-color: #ff6464;
+  background-color: #f91a1a;
   padding:0;
   
 }

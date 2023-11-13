@@ -2,75 +2,95 @@
 <html lang="fr">
 
 <head>
-  <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-  <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Description de votre site web">
+  <meta name="keywords" content="mots-clés, pour, votre, site">
+  <meta name="author" content="Votre nom">
+  <title>Titre de votre site</title>
+  <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="contact-nous.css">
+  <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  <!-- Favicon (remplacez le chemin par le vôtre)-->
+  <link rel="icon" href="favicon.ico" type="./images/logo.png">
+  <!-- Polices Google (exemple, remplacez par vos propres choix) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <!-- Feuilles de style pour les médias imprimés -->
+  <link rel="stylesheet" media="print" href="print.css">
+  <!-- Scripts externes (exemple, remplacez par vos propres choix) -->
+  <script defer src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 
 <body>
 
   <header style="width:100%;">
 
-    <nav class=" navbar navbar-expand-lg navbar-light bg-light p-3" style="width:100%; justify-content:space-between;">
+    <nav class=" navbar navbar-expand-lg navbar-light bg-light " style="width:100%; justify-content:space-between;">
 
-      <div class=" container">
+      <div class=" container " style="position: relative;right:3% ">
         <img class="logo-img" src="./images/logo.png" alt="notre societe">
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <a class="navbar-toggler" type="a" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </a>
         <div class=" collapse navbar-collapse container" id="navbarNav" style="margin-top:20px;">
           <!----------------------------------------------->
           <ul class="navbar-nav ">
-            <li class="dropdown1">
+            <li class="dropdown1 dropdown2">
               <a class="nav-item" href="./index.html"><strong>Accueil</strong></a>
             </li>
-            <li class="dropdown1">
+            <li class="dropdown1 dropdown2">
               <a class="nav-item" href="./apropos.html"><strong>A propos</strong></a>
             </li>
 
-            <li class="dropdown1">
-              <a class="nav-item" href="./particulier.html"><strong>particuliers</strong></a>
+            <li class="dropdown1 dropdown2">
+              <a class="nav-item" href="./deratisation.html"><strong>dératisation</strong></a>
             </li>
-            <li class="dropdown1">
-              <a class="nav-item" href="./professionnel.html"><strong>professionnels</strong></a>
+            <li class="dropdown1 dropdown2">
+              <a class="nav-item" href="./desinfection.html"><strong>déinfection</strong></a>
+            </li>
+            <li class="dropdown1 dropdown2">
+              <a class="nav-item" href="./desinsectisation.html"><strong>désinsectisation</strong></a>
             </li>
             <li class="dropdown1 ">
               <a class=" dropdown-toggle nav-item disabled" href="#" id="navbarDropdown" aria-expanded="false">
                 <strong>services</strong>
               </a>
               <ul class="dropdown-menu1" aria-labelledby="navbarDropdown">
-                <li class="dropdown-item1"><a href="./service-netoyage-bureau.html"><strong> netoyage de
-                      bureau</strong></a></li>
-                <li class="dropdown-item1"><a href="./service-femme-menage.html"><strong>femme de
-                      menage</strong></a></li>
-                <li class="dropdown-item1"><a href="./service-netoyage-locaux.html"><strong>netoyage de locaux
-                    </strong></a></li>
-                <li class="dropdown-item1"><a href="./service-netoyage-maison.html"><strong>netoyage des
-                      maisons </strong></a></li>
-                <li class="dropdown-item1"><a href="./service-netoyage-chantier.html"><strong>netoyage de fin
-                      de chantier </strong></a></li>
-                <li class="dropdown-item1"><a href="./service-netoyage-appartements.html"><strong>netoyage des
-                      appartements </strong></a></li>
-                <li class="dropdown-item1"><a href="./service-netoyage-villas.html"><strong>netoyage des villas
-                    </strong></a></li>
-                <li class="dropdown-item1"><a href="./service-netoyage-imeubles.html"><strong>netoyage des
-                      imeubles</strong></a></li>
-                <li class="dropdown-item1"><a href="./service-netoyage-hotels.html"><strong>netoyage des hotels
-                    </strong></a></li>
+                <li class="dropdown-item1 "><a href="traitement-souris.html">
+                    <strong> traitement souris</strong></a></li>
+                <li class="dropdown-item1"><a href="traitement-cafards-blattes.html">
+                    <strong>traitement cafards et blattes</strong></a></li>
+                <li class="dropdown-item1"><a href="traitement-fourmis.html">
+                    <strong>traitement fourmis</strong></a></li>
+                <li class="dropdown-item1"><a href="traitement-puces.html">
+                    <strong>traitement puces </strong></a></li>
+                <li class="dropdown-item1"><a href="traitement-punaises-lit.html">
+                    <strong>traitement punaises de lit </strong></a></li>
+                <li class="dropdown-item1"><a href="traitement-mouches.html">
+                    <strong>traitement mouches </strong></a></li>
+                <li class="dropdown-item1"><a href="traitement-moustiques.html">
+                    <strong>traitement moustiques</strong></a></li>
+                <li class="dropdown-item1"><a href="traitement-scorpion.html">
+                    <strong>traitement scorpion</strong></a></li>
+                <li class="dropdown-item1"><a href="traitement-serpent.html">
+                    <strong>traitement serpent</strong></a></li>
+                <li class="dropdown-item1"><a href="traitement-pigeon.html">
+                    <strong>traitement pigeon</strong></a></li>
               </ul>
 
             </li>
-            <li class="dropdown1">
+            <li class="dropdown1 dropdown2">
               <a class="nav-item" href="./blog.html"><strong>BLOG</strong></a>
             </li>
-            <li class="dropdown1">
+            <li class="dropdown1 dropdown2">
               <a class="nav-item" href="./contacter-nous.html"><strong>Contacter nous</strong></a>
             </li>
 
-            <li class="dropdown1">
+            <li class="dropdown1 dropdown2">
               <a class="nav-item" href="./contacter-nous.html"><strong>Demander devis</strong></a>
             </li>
           </ul>
@@ -79,9 +99,9 @@
     </nav>
 
   </header>
-  <!------//////////////////////////////////////////-------------->
+  <!------/////////////////////////////////////////////////-------------->
   <div class="contact-nous-haut1">
-    <p style="font-size:40px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Netoyage Bureau</p>
+    <p style="font-size:40px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">traitement pigeon</p>
   </div>
   <div class=" container">
     <div class="paragraph">
@@ -104,11 +124,11 @@
     </div>
     <!-----/////////////////////////services//////////////////////////////////----->
     <div class="row">
-      <div class=" col-md-6 col-sm-12  mt-lg-4">
+      <div class=" col-md-12 col-sm-12  col-lg-6 mt-lg-4">
         <img src="./images/Nettoyage-Bureaux-Nice-06.webp" alt="problem"
           style="border-radius: 10px;margin-top:10px;width: 100%;" class="img-fluid">
       </div>
-      <div class="col-md-6 col-sm-12 ">
+      <div class="col-md-12 col-sm-12 col-lg-6 ">
         <p style="font-size:30px;color:blue; text-align: left;margin-top: 20px;" class="mt-lg-2"> <strong>Société de nettoyage bureaux à Casablanca</p>
         </strong>
         <p style=" text-align: left;">
@@ -127,11 +147,11 @@
     
     <!------------------------////////////////////////////////////------------------------------------------>
     <div class=" row flex-lg-row-reverse flex-md-row-reverse mt-lg-4">
-      <div class="col-md-6 col-sm-12 ">
+      <div class="col-lg-6 col-md-12 col-sm-12 ">
         <img src="./images/header-bureau-nettoyage.webp" alt="problem"
           style="height: 350px; border-radius: 10px;margin-top:10px;" class="img-fluid">
       </div>
-      <div class=" col-md-6 col-sm-12 mt-lg-4">
+      <div class=" col-lg-6 col-md-12 col-sm-12 mt-lg-4">
         <p style="font-size:30px;color:blue; text-align: left; margin-top: 20px;" class="mt-lg-4"> <strong>Netoyage
             bureau casablanca </strong></p>
         <p style=" text-align: left;font: 5px;">
@@ -175,24 +195,43 @@
           <p style="color:rgb(2, 186, 57);font-size:20px;"><strong>NOS SERVICES</strong></p>
           <div class="container row ">
             <div class=" col-lg-6 col-md-10 col-sm-10">
-              <div class="services-link"><a href="./service-netoyage-bureau.html">Netoyage de Bureau</a></div>
-              <div class="services-link"><a href="./service-femme-menage.html">femme de ménage</a></div>
-              <div class="services-link"><a href="./service-netoyage-locaux.html">Netoyage des locaux</a></div>
-              <div class="services-link"><a href="./service-netoyage-maison.html">Netoyage des maisons</a>
+              <div class="services-link"><a href="traitement-souris.html">
+                  <strong> traitement souris</strong></a>
               </div>
-              <div class="services-link"><a href="./service-netoyage-chantier.html">femme de fin de
-                  chantier</a></div>
+              <div class="services-link"><a href="traitement-cafards-blattes.html">
+                  <strong>traitement cafard & blattes</strong></a>
+              </div>
+              <div class="services-link"><a href="traitement-fourmis.html">
+                  <strong>traitement fourmis</strong></a>
+              </div>
+              <div class="services-link"><a href="traitement-puces.html">
+                  <strong>traitement puces </strong></a>
+              </div>
+              <div class="services-link"><a href="traitement-punaises-lit.html">
+                  <strong>traitement punaises de lit </strong></a>
+              </div>
             </div>
             <div class=" col-lg-6 col-md-10 col-sm-10">
-              <div class="services-link"><a href="./service-netoyage-appartements.html">Netoyage des
-                  appartements</a></div>
-              <div class="services-link"><a href="./service-netoyage-villas.html">femme des villas</a></div>
-              <div class="services-link"><a href="./service-netoyage-imeubles.html">Netoyage des imeubles</a>
+              <div class="services-link"><a href="traitement-mouches.html">
+                  <strong>traitement mouches </strong></a>
               </div>
-              <div class="services-link"><a href="./service-netoyage-hotels.html">Netoyage des hotels</a></div>
+              <div class="services-link"><a href="traitement-moustiques.html">
+                  <strong>traitement moustiques</strong></a>
+              </div>
+              <div class="services-link"><a href="traitement-scorpion.html">
+                  <strong>traitement scorpion</strong></a>
+              </div>
+              <div class="services-link"><a href="traitement-serpent.html">
+                  <strong>traitement serpent</strong></a>
+              </div>
+              <div class="services-link"><a href="traitement-pigeon.html">
+                  <strong>traitement pigeon</strong></a>
+              </div>
             </div>
+
           </div>
         </div>
+
         <!-------------------------------contacter nous--------------------------------------------------->
         <div class="container col-lg-3 col-md-4 col-sm-10 " style="color: white;" style="margin-bottom:20px;">
           <p style="color:rgb(2, 186, 57);font-size:20px ;margin-top: 20px;"><strong>CONTACT</strong></p>
@@ -209,6 +248,7 @@
         </div>
       </div>
     </div>
+
   </footer>
 </body>
 
