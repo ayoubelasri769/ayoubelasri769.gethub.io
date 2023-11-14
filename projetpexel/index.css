@@ -213,7 +213,7 @@ ul{
   .entrepris-deve{
     text-align: left;
     width: 90% !important;
-    padding: 10px !important; 
+    padding: 10px !important;
   }
   .titre-general-particulier{
     font-size: 60px;
@@ -272,11 +272,6 @@ ul{
     overflow-y: auto;
     font-size: 40px; 
   }
-  /* .dropdown-devis{
-    font-size: 40px;
-    height:80px;
-  }
-   */
   .contacter-nous p>strong{
     font-size: 70px;
   }
@@ -294,6 +289,32 @@ ul{
 }
 /******************************************page services***************************/
 .contact-nous-haut1{
+  height: 160px;
+  background-image: url("./images/background.jpg");
+  width: 100%;
+}
+.contact-nous-haut-deratisation{
+  height: 160px;
+  background-image: url("./images/imgs/deratisation-casablanca-maroc.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.contact-nous-haut-desinfection{
+  height: 160px;
+  background-image: url("./images/imgs/desinfection-casablanca-maroc.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.contact-nous-haut-desinsectisation{
+  height: 160px;
+  background-image: url("./images/imgs/desinsectisation-casablanca-maroc.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.contact-nous-haut{
   height: 160px;
   background-image: url("./images/background.jpg");
   width: 100%;
