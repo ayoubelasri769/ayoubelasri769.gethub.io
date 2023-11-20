@@ -1,0 +1,75 @@
+.body {
+  position: relative;
+}
+
+.clock {
+
+  border: 5px solid black;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: left center;
+  transform: translate(-50%, -50%) ;
+}
+.callibr-heurs{
+  width: 2px;
+  height: 230px;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform-origin: bottom center;
+  transform: translate(-50%, -50%) ;
+}
+.callibr-minutes{
+  width: 2px;
+  height: 230px;
+  background-color: rgb(28, 249, 8);
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform-origin: bottom center;
+  transform: translate(-50%, -50%) ;
+}
+.callibr-seconds{
+  width: 2px;
+  height: 230px;
+  background-color: rgb(248, 7, 7);
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform-origin: bottom center;
+  transform: translate(-50%, -50%) ;
+}
+.heurCoplet___{
+  width: 200px;
+  height: 90px;
+  border: 1px solid black;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+.heur-generale{
+  width: 5px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: -6;
+  top: 25%;
+  left: 50%;
+  transform-origin: bottom center;
+}
+.heur{
+  /* width: 70%;
+  height: 10%; */
+  background-color: rgb(3, 3, 3);
+  position: absolute;
+  
+}
+.form{
+
+}
+
