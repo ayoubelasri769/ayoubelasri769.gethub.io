@@ -14,7 +14,7 @@ const meshe = new THREE.Mesh( new THREE.PlaneGeometry( 100, 100 ), new THREE.Mes
 /******************************************** */
 
 /////////////////////////////////////////////////////////////////////////////////////
-var geometry = new THREE.BoxGeometry(4, 2, 1);
+var geometry = new THREE.BoxGeometry(3, 1.5, 0.5);
 var textureloader = new THREE.TextureLoader();
 //scene.background=textureloader;
 var material = new THREE.MeshBasicMaterial({color:'#ff0000'});/*{ map: textureloader.load('background.png'),side: THREE.BackSide }*/
@@ -22,12 +22,12 @@ var mech = new THREE.Mesh(geometry, material);
 mech.position.set(0, 0, 0);
 
 scene.add(mech);
-var border = new THREE.BoxGeometry(4.1, 2.1, 1.1);
+var border = new THREE.BoxGeometry(3.1, 1.6, 0.6);
 var material2 = new THREE.MeshBasicMaterial({
   color: 0xffffff,
   wireframe: false,
 });
-var border2 = new THREE.BoxGeometry(4.2, 2.2, 1.2);
+var border2 = new THREE.BoxGeometry(3.1, 1.6, 0.6);
 var material22 = new THREE.MeshBasicMaterial({
   color: 0x000000,
   wireframe: false,
@@ -53,10 +53,10 @@ scene.add(mech2);
 scene.add(mech3);
 scene.add(mech_border[0]);
 scene.add(mech_border[1]);
-mech2.position.set(6,0,0);
-mech3.position.set(-6,0,0);
-mech_border[0].position.set(6,0,0);
-mech_border[1].position.set(-6,0,0);
+mech2.position.set(3,0,0);
+mech3.position.set(-3,0,0);
+mech_border[0].position.set(3,0,0);
+mech_border[1].position.set(-3,0,0);
 var camera = new THREE.PerspectiveCamera(
   75,
   window.innerWidth / window.innerHeight,
